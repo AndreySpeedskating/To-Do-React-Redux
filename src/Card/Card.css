@@ -1,18 +1,18 @@
 @media screen and (min-width: 900px) {
     .Card {
-    position: relative;
-    display: block;
-    margin: 5px auto;
-    display: block;
-    min-width: 500px;
-    max-width: 500px;
-    height: 40px;
-    border-radius: 5px;
-}
+        position: relative;
+        display: block;
+        margin: 5px auto;
+        min-width: 500px;
+        max-width: 500px;
+        height: 40px;
+        border-radius: 5px;
+    }
 
     .Card.false {
         border: 2px solid dodgerblue;
-        box-shadow: 0px 3px 4px 0px darkslategray;
+        -webkit-box-shadow: 0 3px 4px 0 darkslategray;
+        box-shadow: 0 3px 4px 0 darkslategray;
         background: beige;
     }
 
@@ -29,7 +29,7 @@
         left: 10px;
         top: -9px;
         font-size: 18px;
-        font-family: "Times New Roman";
+        font-family: "Times New Roman", serif;
         margin: 3px;
         padding-left: 10px;
         padding-top: 6px;
@@ -45,7 +45,9 @@
     .text.true {
         border: 1px solid limegreen;
         text-decoration: line-through;
+        -webkit-text-decoration-style: solid;
         text-decoration-style: solid;
+        -webkit-text-decoration-color: limegreen;
         text-decoration-color: limegreen;
         background: rgba(199, 199, 199, 0.28);
     }
@@ -72,7 +74,7 @@
         height: 30px;
         top: -9px;
         left: 16%;
-        font-family: "Times New Roman";
+        font-family: "Times New Roman", serif;
         font-size: 18px;
         border-radius: 4px;
     }
@@ -89,7 +91,10 @@
     .container {
         position: absolute;
         display: table-column;
+        -ms-flex-line-pack: center;
         align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         margin: 0 auto;
         width: 100%;
@@ -101,7 +106,8 @@
 
     .Card.true {
         border: 2px solid lawngreen;
-        box-shadow: 0px 3px 4px 0px limegreen;
+        -webkit-box-shadow: 0 3px 4px 0 limegreen;
+        box-shadow: 0 3px 4px 0 limegreen;
         background: beige;
     }
     .check {
@@ -144,7 +150,6 @@
         position: relative;
         display: block;
         margin: 5px auto;
-        display: block;
         min-width: 300px;
         max-width: 360px;
         height: 30px;
@@ -153,7 +158,8 @@
 
     .Card.false {
         border: 2px solid dodgerblue;
-        box-shadow: 0px 3px 4px 0px darkslategray;
+        -webkit-box-shadow: 0 3px 4px 0 darkslategray;
+        box-shadow: 0 3px 4px 0 darkslategray;
         background: beige;
     }
 
@@ -170,7 +176,7 @@
         left: 10px;
         top: -5px;
         font-size: 12px;
-        font-family: "Times New Roman";
+        font-family: "Times New Roman", serif;
         margin: 3px;
         padding-left: 5px;
         padding-top: 3px;
@@ -186,7 +192,9 @@
     .text.true {
         border: 1px solid limegreen;
         text-decoration: line-through;
+        -webkit-text-decoration-style: solid;
         text-decoration-style: solid;
+        -webkit-text-decoration-color: limegreen;
         text-decoration-color: limegreen;
         background: rgba(199, 199, 199, 0.28);
     }
@@ -213,7 +221,7 @@
         height: 30px;
         top: -5px;
         left: 20%;
-        font-family: "Times New Roman";
+        font-family: "Times New Roman", serif;
         font-size: 12px;
         border-radius: 4px;
     }
@@ -230,7 +238,10 @@
     .container {
         position: absolute;
         display: table-column;
+        -ms-flex-line-pack: center;
         align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         margin: 0 auto;
         width: 100%;
@@ -242,7 +253,8 @@
 
     .Card.true {
         border: 2px solid lawngreen;
-        box-shadow: 0px 3px 4px 0px limegreen;
+        -webkit-box-shadow: 0 3px 4px 0 limegreen;
+        box-shadow: 0 3px 4px 0 limegreen;
         background: beige;
     }
     .check {
