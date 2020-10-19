@@ -1,6 +1,7 @@
 @media screen and (min-width: 900px){
     .HeadClass {
-        display: block;
+        display: flex;
+        display: -moz-flex;
         position: relative;
         height: 40px;
         width: 210px;
